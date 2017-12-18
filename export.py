@@ -1,4 +1,4 @@
-#Python 3
+#!/usr/bin/env python3
 
 """
 Updated version of https://github.com/tobanw/laverna-export
