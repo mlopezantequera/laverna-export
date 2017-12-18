@@ -69,7 +69,7 @@ def main():
 
         # copy laverna's markdown. Add title and tags.
         with open(notepath,'w') as output_md:
-            output_md.write('#'+notedict['title']+'\n\n')
+            output_md.write('# '+notedict['title']+'\n\n')
             if len(notedict['tags']) > 0:
               output_md.write('tags: ')             
               for tag in notedict['tags']:
